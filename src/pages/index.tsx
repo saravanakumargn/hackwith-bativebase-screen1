@@ -16,6 +16,7 @@ import {
   Button,
   AspectRatio,
 } from "native-base";
+import { BodyTypography } from "../components/typography";
 
 // Start editing here, save and see your changes.
 export default function App() {
@@ -42,6 +43,8 @@ export default function App() {
             resizeMode="contain"
           />
         </HStack>
+        <BodyTypography>test</BodyTypography>
+        <BodyTypography isSecondaryText>test</BodyTypography>
         <Heading>Welcome to NativeBase</Heading>
         <Text>
           Edit{" "}
